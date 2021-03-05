@@ -20,13 +20,13 @@ const Shop = () => {
       <div className="product-container">
         {products.map((product) => (
           <Product
+            showAddToCartBtn={true}
             handleAddProduct={handleAddProduct}
             product={product}
           ></Product>
         ))}
       </div>
       <div className="cart-container">
-        {/* <h4>Items Ordered: {cart.length}</h4> */}
         <Cart cart={cart}></Cart>
       </div>
     </div>
