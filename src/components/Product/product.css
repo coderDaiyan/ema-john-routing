@@ -12,8 +12,10 @@
   font-weight: 500;
 }
 .product h4,
-p,
-.main-btn {
+p {
+  margin-left: 40px;
+}
+button {
   margin-left: 40px;
 }
 .product small {
@@ -45,6 +47,6 @@ p,
   background: #d6ac42;
 }
 .cart-container {
-  position: fixed;
+  position: absolute;
   left: 990px;
 }
