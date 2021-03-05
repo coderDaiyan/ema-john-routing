@@ -13,7 +13,7 @@
 }
 .product h4,
 p,
-.cart-btn {
+.main-btn {
   margin-left: 40px;
 }
 .product small {
@@ -30,7 +30,7 @@ p,
   border: 10px solid orange;
   border-radius: 20px;
 }
-.cart-btn {
+.main-btn {
   background: #f0c14b;
   border: 2px solid;
   border-color: #a88734 #9c7e31 #846a29;
@@ -41,7 +41,7 @@ p,
   cursor: pointer;
   outline: none;
 }
-.cart-btn:hover {
+.main-btn:hover {
   background: #d6ac42;
 }
 .cart-container {

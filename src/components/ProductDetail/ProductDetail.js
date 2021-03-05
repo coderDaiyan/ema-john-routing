@@ -11,8 +11,7 @@ const ProductDetail = () => {
 
   return (
     <div>
-      <h1>Product Detail Coming soon</h1>
-      <h2>Product ID: {productKey}</h2>
+      <h1>Product ID: {productKey}</h1>
       <Product showAddToCartBtn={false} product={product}></Product>
     </div>
   );
